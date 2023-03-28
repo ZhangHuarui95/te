@@ -1,0 +1,13 @@
+- name: actions-feishu
+  # You may pin to the exact commit or the version.
+  # uses: xiachufang/actions-feishu@c5b2c39977b1e99cfb0e2c17920d14d6b94b49e5
+  uses: xiachufang/actions-feishu@v1.2
+  with:
+    # Webhook address
+    webhook: https://open.feishu.cn/open-apis/bot/v2/hook/91e86878-63f0-4e28-87ca-d6e11d32727c
+    # Message title
+    title:greetings # optional, default is Actions Feishu
+    # Message body
+    content: hello huarui
+    # Message type
+    message_type: # optional, default is post
