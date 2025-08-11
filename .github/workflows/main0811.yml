@@ -1,9 +1,8 @@
 name: PR Checks
 
-# 触发条件：当有PR提交到main分支时运行
+# 触发条件：当有PR提交到main分支时运行--》改为手动触发
 on:
-  pull_request:
-    branches: [ main ]
+workflow_dispatch
 
 jobs:
   code-quality:
